@@ -1,0 +1,32 @@
+{
+  "ecosystem": "acoolecosystem",
+  "version": "1.0",
+  "standard": "Timmy 9.8",
+  "owner": "Keith McPherson (UID: 001)",
+  "entities": [
+    {
+      "id": "hub",
+      "name": "acoolecosystem-hub",
+      "cluster": "00",
+      "port": 3000
+    },
+    {
+      "id": "collector",
+      "name": "COLLECTOR Co-Op",
+      "cluster": "01",
+      "port": 3001
+    },
+    {
+      "id": "vea",
+      "name": "ACoolVEA",
+      "cluster": "02",
+      "port": 3002
+    },
+    {
+      "id": "mag",
+      "name": "ACoolMAG",
+      "cluster": "03",
+      "port": 3003
+    }
+  ]
+}
